@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <bombList></bombList>
+  </div>
+  <footer class="footer"><p>If you have Champion rank on Wynncraft, please consider contributing to the site by using <a href="https://github.com/carreb/bombbay-conduit/releases">this mod</a>. This site will always remain free.</p></footer>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import bombList from "./components/bombList.vue"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    bombList
   }
 }
 </script>
@@ -20,7 +22,19 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #FFF;
   margin-top: 60px;
+}
+
+body {
+  background-color: #1a1a1a;
+}
+
+.footer {
+  position: absolute;
+  bottom: 5px;
+  margin: auto;
+  left: 0;
+  right: 0;
 }
 </style>
