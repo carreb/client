@@ -53,7 +53,7 @@ export default {
         }
     },
     created() {
-        this.socket = io("http://localhost:1313")
+        this.socket = io("https://io.wynnbombs.xyz")
     },
     mounted() {
         this.socket.on("bombs", data => {

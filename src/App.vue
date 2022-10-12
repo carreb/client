@@ -1,8 +1,8 @@
 <template>
   <div>
     <bombList></bombList>
+    <footer class="footer"><p>If you have Champion rank on Wynncraft, please consider contributing to the site by using <a href="https://github.com/carreb/bombbay-conduit/releases">this mod</a>. This site will always remain free.</p></footer>
   </div>
-  <footer class="footer"><p>If you have Champion rank on Wynncraft, please consider contributing to the site by using <a href="https://github.com/carreb/bombbay-conduit/releases">this mod</a>. This site will always remain free.</p></footer>
 </template>
 
 <script>
