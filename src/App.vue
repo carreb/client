@@ -1,7 +1,7 @@
 <template>
   <div>
     <bombList></bombList>
-    <footer class="footer"><p>If you have Champion rank on Wynncraft, please consider contributing to the site by using <a href="https://github.com/carreb/bombbay-conduit/releases">this mod</a>. This site will always remain free.</p><p>If any mods/devs/admins are reading: If this is against the rules please DM carreb#4545 on discord and let me know to take it down and I will resolve things quickly.</p></footer>
+    <footer class="footer">This site has been disconnected due to a request from Wynncraft staff.</footer>
   </div>
 </template>
 
